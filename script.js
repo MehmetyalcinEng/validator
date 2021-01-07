@@ -23,7 +23,7 @@ function checkEmail(input) {
         success(input);
     }else{
         error(input,'hatali bir mail adresi.');
-    }
+    };
 }
 
 function checkRequired(inputs){
